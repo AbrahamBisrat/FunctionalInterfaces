@@ -3,7 +3,7 @@ package exercise_2_soln;
 import java.util.Random;
 
 public class MyRandGen implements MyIface {
-	public int produce() {
+	@Override public int produce() {
 		Random r = new Random();
 		return r.nextInt();
 	}	

@@ -5,6 +5,6 @@ public interface Example1 {
 	public String toString();
 	
 	public static void main(String[] args) {
-		System.out.println("is this real?");
+		System.out.println("real");
 	}
 }
