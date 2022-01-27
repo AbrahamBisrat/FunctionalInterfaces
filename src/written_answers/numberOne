@@ -1,0 +1,20 @@
+
+
+ >> number 1 a<<
+ 
+ parameter and free variables:
+ 
+ Parameter means argument passed to the lambda expression.
+ 
+ Free Variables means are variables that are not parameter
+ 				and not defined within the block scope.
+ 				
+ 
+ i. Parameter : [none] ->  it doesn't take any argument.
+ 	Free Vars : [s, t] ->  not declared within the scope and not 
+ 						   passed in as a parameter.
+ 						   
+ ii. Parameter : [s, t]
+ 	 Free Vars : [ignoreCase]
+ 	 
+ 
