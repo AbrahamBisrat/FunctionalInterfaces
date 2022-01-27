@@ -8,6 +8,8 @@ public class One {
 		
 		Supplier<Double> x = () -> Math.random() * 100;
 		
+		Supplier<Double> y = () -> Math.random();
+		
 		int loopCount = 10;
 		
 		for(int i = 0; i < loopCount; i++)
