@@ -15,5 +15,7 @@ public class Supplier_hands {
 		
 		for(int i = 0; i < loopCount; i++)
 			System.out.println((int)Math.floor((thisWorks.get() * 10) * (max - min) + min));
+		
+		
 	}
 }

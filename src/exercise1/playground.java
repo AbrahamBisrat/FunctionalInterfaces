@@ -18,7 +18,8 @@ public class playground {
 		System.out.println(biGames.apply(1, 2));
 		
 		
-		TriFunction<Integer, Integer, Integer, Integer> tri = (x, y, z, r) -> x + y + z;
+		TriFunction<Integer, Integer, Integer, Integer> tri = (x, y, z) -> x + y + z;
 		
+		System.out.println(tri.apply(1, 2, 3));
 	}
 }
